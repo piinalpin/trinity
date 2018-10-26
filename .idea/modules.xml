@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../test_trinity/.idea/test_trinity.iml" filepath="$PROJECT_DIR$/../test_trinity/.idea/test_trinity.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/trinity.iml" filepath="$PROJECT_DIR$/.idea/trinity.iml" />
+      <module fileurl="file://E:/GITHUB/viserion/.idea/viserion.iml" filepath="E:/GITHUB/viserion/.idea/viserion.iml" />
     </modules>
   </component>
 </project>
