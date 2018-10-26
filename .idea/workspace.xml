@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cb004d7-bc97-48ac-9d7d-88360a9c853d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mail_consumer/tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trinity/celery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/trinity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trinity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_consumer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_consumer/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trinity/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/trinity/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +16,13 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="2" />
           <entry key="log" value="2" />
           <entry key="py" value="28" />
         </counts>
@@ -36,6 +30,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Log" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="28" />
         </counts>
       </usages-collector>
@@ -52,41 +47,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mail_consumer/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1540570506275" expanded="true" signature="312:630" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/GITHUB/viserion/logs/main.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="231">
-              <caret line="3345" lean-forward="true" selection-start-line="3345" selection-end-line="3345" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../test_trinity/addMessageToRabbitMq.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mail_consumer/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,9 +62,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/GITHUB/viserion/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="272" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="272" column="17" selection-start-line="272" selection-start-column="17" selection-end-line="272" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://E:/GITHUB/viserion/viserion/celery.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
+            <state relative-caret-position="46">
               <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
@@ -115,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trinity/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="1265">
               <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
             </state>
           </provider>
@@ -136,7 +115,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="E:/GITHUB/viserion" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -148,6 +127,7 @@
         <option value="$PROJECT_DIR$/logs/main.log" />
         <option value="$PROJECT_DIR$/trinity/settings.py" />
         <option value="$PROJECT_DIR$/../test_trinity/addMessageToRabbitMq.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -164,31 +144,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="trinity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trinity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trinity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trinity" type="462c0819:PsiDirectoryNode" />
-              <item name="env" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trinity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trinity" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trinity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trinity" type="462c0819:PsiDirectoryNode" />
-              <item name="mail_consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trinity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trinity" type="462c0819:PsiDirectoryNode" />
               <item name="trinity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -199,7 +160,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,13 +193,9 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.36451614" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -247,6 +203,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.36451614" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -277,29 +237,15 @@
   <component name="editorHistoryManager">
     <entry file="file://E:/GITHUB/viserion/mail_consumer/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-276" />
       </provider>
     </entry>
     <entry file="file://E:/GITHUB/viserion/mail_consumer/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://E:/GITHUB/viserion/mail_consumer/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-512">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-512" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
@@ -309,9 +255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="36" column="18" lean-forward="true" selection-start-line="29" selection-end-line="36" selection-end-column="18" />
-          <folding>
-            <element signature="e#22#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -330,9 +273,50 @@
         <state relative-caret-position="-10393" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/trinity/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="19" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/main.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://E:/GITHUB/viserion/viserion/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/GITHUB/viserion/mail_consumer/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_consumer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/GITHUB/viserion/logs/main.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="76935">
+          <caret line="3345" selection-start-line="3345" selection-end-line="3345" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://E:/GITHUB/viserion/viserion/celery.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
+        <state relative-caret-position="46">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
@@ -340,13 +324,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trinity/celery.py">
+    <entry file="file://$PROJECT_DIR$/trinity/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="19" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="19" />
+        <state relative-caret-position="1265">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test_trinity/addMessageToRabbitMq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
           <folding>
-            <element signature="e#42#80#0" expanded="true" />
-            <marker date="1540571290681" expanded="true" signature="730:735" ph="..." />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -362,58 +352,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/main.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://E:/GITHUB/viserion/viserion/settings.py">
+    <entry file="file://E:/GITHUB/viserion/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="63" column="18" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="18" />
+        <state>
+          <caret selection-end-line="272" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trinity/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/GITHUB/viserion/mail_consumer/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail_consumer/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1540570506275" expanded="true" signature="312:630" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/GITHUB/viserion/logs/main.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="231">
-          <caret line="3345" lean-forward="true" selection-start-line="3345" selection-end-line="3345" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test_trinity/addMessageToRabbitMq.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <caret line="272" column="17" selection-start-line="272" selection-start-column="17" selection-end-line="272" selection-end-column="17" />
         </state>
       </provider>
     </entry>
