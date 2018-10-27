@@ -60,6 +60,14 @@ Virtualenv will install automatically AMQP from celery to connect with RabbitMQ.
 
 ##### Change DEBUG to False and ALLOWED_HOST to localhost
 
+```
+#!python
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
+
+ALLOWED_HOSTS = ['localhost']
+```
+
 ##### Add email setup
 
 ```
@@ -304,8 +312,8 @@ message = """
     "subject": "Registration of Training Asynchronous Programming",
     "text": "Congratulations you have registered as participants of asynchronous programming. We have attached a ticket registration, please download.",
     "html":"<h2>Congratulations you have registered as participants of asynchronous programming. We have attached a ticket registration, please download.</h2>",
-    "to": ["piinalpin@gmail.com","gemaantikahr@gmail.com"],
-    "file": "KS_Linux.jpg"
+    "to": ["<Your_Destination_Email>"],
+    "file": "<Attachment>"
 }
 """
 # PUSH MESSAGE TO QUEUE MAIL_CONSUMER
