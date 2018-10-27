@@ -28,7 +28,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['localhost']
 
 # EMAIL SETUP
-EMAIL_BACEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = 'piinalpin'
 EMAIL_HOST_PASSWORD = 'alvinditya789'
