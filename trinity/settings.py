@@ -30,8 +30,8 @@ ALLOWED_HOSTS = ['localhost']
 # EMAIL SETUP
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'piinalpin'
-EMAIL_HOST_PASSWORD = 'alvinditya789'
+EMAIL_HOST_USER = '<Your_Username>'
+EMAIL_HOST_PASSWORD = '<Your_Password>'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = "Info KS-Linux UAD <info@kslinux.tif.uad.ac.id>"
