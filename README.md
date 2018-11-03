@@ -17,6 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 * [Erlang (Open Telecom Platform)](https://www.erlang.org/)
 * [RabbitMQ (Message Broker)](https://www.rabbitmq.com/)
 * [Pyhton 3.6 (Base Compiler)](https://www.python.org/)
+* [Sendgrid Account (SMTP Client)](https://sendgrid.com/)
 * Virtualenv (Virtual Environtment)
 
 - - -
