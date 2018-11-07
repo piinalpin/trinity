@@ -113,6 +113,7 @@ INSTALLED_APPS = [
 ```
 
 ##### Create logging
+Don't forget to create "logs" directory
 
 ```
 #!python
